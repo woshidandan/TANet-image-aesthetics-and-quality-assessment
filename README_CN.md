@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
-这是我们组在IJCAI 2022关于图像美学评估最新的一篇工作，因我个人热衷于开源，希望更多的人能够关注到这篇工作，所以另外写了一篇中文的介绍给国内的小伙伴: 
+这是我们组在IJCAI 2022关于图像美学评估最新的一篇工作: 
 
 <div align="center">
 <h1>
@@ -18,6 +18,7 @@ Beijing University of Posts and Telecommunications
 </h4>
 </div>
 
+因我个人热衷于开源，希望更多的人能够关注到这篇工作，所以另外写了一篇中文的介绍给国内的小伙伴，不要忘记给我们一个小星星哦，Star一下吧！
 <!-- ![TANet and TAD66K dataset](https://user-images.githubusercontent.com/15050507/164587655-4af0b519-7213-4f29-b378-5dfc51dfab83.png)
 ![Performance](https://user-images.githubusercontent.com/15050507/164587663-043a76d8-5d1b-417e-856d-2320fbe26836.png) -->
 ------------------------------------------------------------------------------------------------------------
@@ -37,7 +38,7 @@ Beijing University of Posts and Telecommunications
 </div>
 
 ## Download
-* 你可以从这里下载到数据集和标注分数 [here](https://drive.google.com/drive/folders/1lpSqNXtm-ianfI6TIvrJZGp96iCXsBR-)，如果被墙了，记得cue我，每张图像我们都将最大边按等比放缩至800。
+* 你可以从这里下载到数据集和标注分数 [here](https://drive.google.com/drive/folders/1lpSqNXtm-ianfI6TIvrJZGp96iCXsBR-)，如果失效了，记得cue我，每张图像我们都将最大边按等比放缩至800。
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -46,6 +47,7 @@ Beijing University of Posts and Telecommunications
 ## 介绍
 * 简要版：在通用美学数据集AVA，个性化美学数据集FLICKR-AES, 以及自建的数据集TAD66K，全SOTA。
 * 太长不看版：我们提出了一个以主题为核心的网络架构TANet，在搭建这个网络的过程中，我们希望其能够切实的提取出当前图像的主题，因此将一个百万级别的数据集Place用来预训练我们其中的一个分支。Place数据集包含了大部分现实场景，虽然场景无法直接等效于主题，但据我们所知，这是目前最好的能进行主题感知的方法。值得注意的是，我们发现经过预训练的分支会出现注意力弥散现象，这会导致费尽力气预训练获得的主题感知能力丧失，这一点在此前用ImageNet进行预训练的工作中也有体现，因此我们会将该分支直接冻结。为了让网络能够自适应的利用主题信息，融合的权重是其学习得到的；为了能够让其获得图像中不同区域色彩的分布及关系信息，我们专门加了一个类似自注意力机制的分支。
+* 在对比性能时，此前的工作对比指标通常不统一，我们索性把所有发布了开源代码的工作都自己跑了一遍，填补了相关缺失的指标，发布了一个目前最全的benchmark。
 
 ![TANet](https://user-images.githubusercontent.com/15050507/164627140-fed5f9b9-43fa-4cb3-a23f-b60935d3aa71.png)
 ![Performance](https://user-images.githubusercontent.com/15050507/164587663-043a76d8-5d1b-417e-856d-2320fbe26836.png)
@@ -75,3 +77,8 @@ https://user-images.githubusercontent.com/15050507/164580816-f98d1dd9-50a0-47b7-
 https://user-images.githubusercontent.com/15050507/164580823-4ea8ff91-825b-43dc-a421-f75455e549ae.mp4
 
 https://user-images.githubusercontent.com/15050507/164580840-b7f5624f-486d-46e6-9dd4-efaa92dde09c.mp4
+
+## 其它
+* 事实上，以上述数据集为起点，后续还有很多工作可以尝试，即使是我们自己发布的TANet，性能也远未达到上限，因为TAD66K每个主题都对应了不同的评分规则，任务难度更大，这点可以在SRCC这种的指标上看出，目前只有0.513，有兴趣的同学，可以继续加油，把指标刷上去。
+* 我们实验室的主页：[视觉机器人与智能技术实验室](http://www.mrobotit.cn/Default.aspx)。
+* 我的个人主页：[博客](https://xiaohegithub.cn/)，[知乎](https://www.zhihu.com/people/wo-shi-dan-dan-87)。
