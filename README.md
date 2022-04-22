@@ -23,7 +23,9 @@ Beijing University of Posts and Telecommunications
 
 
 # TAD66K &nbsp;<a href=""><img width="48" src="docs/release_icon.png"></a>
+
 ## Introduction
+---------------------------
 * We build a large-scale dataset called the Theme and Aesthetics Dataset with 66K images (TAD66K), which is specifically designed for IAA. Specifically, (1) it is a theme-oriented dataset containing 66K images covering 47 popular themes. All images were carefully selected by hand based on the theme. (2) In addition to common aesthetic criteria, we provide 47 criteria for the 47 themes. Images of each theme are annotated independently, and each image contains at least 1200 effective annotations (so far the richest annotations). These high-quality annotations could help to provide deeper insight into the performance of models. 
 
 ![TAD66K](https://user-images.githubusercontent.com/15050507/164620789-2958fbd6-5e3b-4eba-9697-bcd28d5257f6.png)
