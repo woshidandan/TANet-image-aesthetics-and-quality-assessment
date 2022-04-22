@@ -22,6 +22,7 @@ Beijing University of Posts and Telecommunications
 ![Performance](https://user-images.githubusercontent.com/15050507/164587663-043a76d8-5d1b-417e-856d-2320fbe26836.png) -->
 
 # TAD66K
+## Introduction
 * We build a large-scale dataset called the Theme and Aesthetics Dataset with 66K images (TAD66K), which is specifically designed for IAA. Specifically, (1) it is a theme-oriented dataset containing 66K images covering 47 popular themes. All images were carefully selected by hand based on the theme. (2) In addition to common aesthetic criteria, we provide 47 criteria for the 47 themes. Images of each theme are annotated independently, and each image contains at least 1200 effective annotations (so far the richest annotations). These high-quality annotations could help to provide deeper insight into the performance of models. 
 
 ![TAD66K](https://user-images.githubusercontent.com/15050507/164620789-2958fbd6-5e3b-4eba-9697-bcd28d5257f6.png)
@@ -32,7 +33,8 @@ Beijing University of Posts and Telecommunications
     
 </div>
 
-
+## Download
+* Download from [here](https://drive.google.com/drive/folders/1lpSqNXtm-ianfI6TIvrJZGp96iCXsBR-).
 
 We propose a baseline model, called the Theme and Aesthetics Network (TANet), which can maintain a constant perception of aesthetics to effectively deal with the problem of attention dispersion. Moreover, TANet can adaptively learn the rules for predicting aesthetics according to a recognized theme. TAD
 
@@ -53,11 +55,6 @@ We propose a baseline model, called the Theme and Aesthetics Network (TANet), wh
 * Train or test, please run: nnictl create --config config.yml -p 8999
 * The Web UI urls are: http://127.0.0.1:8999 or http://172.17.0.3:8999
 * Note: nni is not necessary, if you don't want to use this tool, just make simple modifications to our code, such as changing param_group['lr'] to param_group.lr, etc.
-
-## TAD66K
-* Download from [here](https://drive.google.com/drive/folders/1lpSqNXtm-ianfI6TIvrJZGp96iCXsBR-).
-
-
 
 
 https://user-images.githubusercontent.com/15050507/164580816-f98d1dd9-50a0-47b7-b992-2f0374e8a418.mp4
