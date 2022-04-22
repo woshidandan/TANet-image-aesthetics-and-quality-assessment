@@ -18,13 +18,8 @@ Beijing University of Posts and Telecommunications
 </h4>
 </div>
 
-![TANet](https://user-images.githubusercontent.com/15050507/164587152-739203cc-1e50-4e1d-bb2b-1921307a5b89.png)
-![TAD66K](https://user-images.githubusercontent.com/15050507/164587170-fc35d159-f2b3-4a72-ae3f-f6db26bb0b59.png)
-![Performance](https://user-images.githubusercontent.com/15050507/164587184-a45c51a4-067a-4a8b-9197-c32fbf002e14.png)
-![Performance2](https://user-images.githubusercontent.com/15050507/164587195-77bf00de-fde6-4d97-bdd7-c8606e9ae478.png)
-
-
-
+![TANet and TAD66K dataset](https://user-images.githubusercontent.com/15050507/164587655-4af0b519-7213-4f29-b378-5dfc51dfab83.png)
+![Performance](https://user-images.githubusercontent.com/15050507/164587663-043a76d8-5d1b-417e-856d-2320fbe26836.png)
 
 ## Environment Installation
 * pandas==0.22.0
