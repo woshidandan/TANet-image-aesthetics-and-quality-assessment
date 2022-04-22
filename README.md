@@ -66,7 +66,7 @@ We propose a baseline model, called the Theme and Aesthetics Network (TANet), wh
 * The Web UI urls are: http://127.0.0.1:8999 or http://172.17.0.3:8999
 * Note: nni is not necessary, if you don't want to use this tool, just make simple modifications to our code, such as changing param_group['lr'] to param_group.lr, etc.
 
-
+## Try!
 https://user-images.githubusercontent.com/15050507/164580816-f98d1dd9-50a0-47b7-b992-2f0374e8a418.mp4
 
 https://user-images.githubusercontent.com/15050507/164580823-4ea8ff91-825b-43dc-a421-f75455e549ae.mp4
