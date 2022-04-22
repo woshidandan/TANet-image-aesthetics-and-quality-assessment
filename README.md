@@ -26,6 +26,13 @@ Beijing University of Posts and Telecommunications
 
 ![TAD66K](https://user-images.githubusercontent.com/15050507/164620789-2958fbd6-5e3b-4eba-9697-bcd28d5257f6.png)
 
+![example1](https://user-images.githubusercontent.com/15050507/164622842-944c0bd3-ef40-4083-9d59-e7a46535bc58.png)
+
+![example2](https://user-images.githubusercontent.com/15050507/164622856-63ed3f84-0359-4939-a941-3e37e0e464d5.png)
+
+![example3](https://user-images.githubusercontent.com/15050507/164622866-caec0950-0bb8-45bb-8e3c-b92b0068bbc8.png)
+
+
 
 
 We propose a baseline model, called the Theme and Aesthetics Network (TANet), which can maintain a constant perception of aesthetics to effectively deal with the problem of attention dispersion. Moreover, TANet can adaptively learn the rules for predicting aesthetics according to a recognized theme. TAD
