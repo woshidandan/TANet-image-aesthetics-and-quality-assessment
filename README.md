@@ -20,12 +20,11 @@ Beijing University of Posts and Telecommunications
 
 <!-- ![TANet and TAD66K dataset](https://user-images.githubusercontent.com/15050507/164587655-4af0b519-7213-4f29-b378-5dfc51dfab83.png)
 ![Performance](https://user-images.githubusercontent.com/15050507/164587663-043a76d8-5d1b-417e-856d-2320fbe26836.png) -->
-
+------------------------------------------------------------------------------------------------------------
 
 # TAD66K &nbsp;<a href=""><img width="48" src="docs/release_icon.png"></a>
 
 ## Introduction
----------------------------
 * We build a large-scale dataset called the Theme and Aesthetics Dataset with 66K images (TAD66K), which is specifically designed for IAA. Specifically, (1) it is a theme-oriented dataset containing 66K images covering 47 popular themes. All images were carefully selected by hand based on the theme. (2) In addition to common aesthetic criteria, we provide 47 criteria for the 47 themes. Images of each theme are annotated independently, and each image contains at least 1200 effective annotations (so far the richest annotations). These high-quality annotations could help to provide deeper insight into the performance of models. 
 
 ![TAD66K](https://user-images.githubusercontent.com/15050507/164620789-2958fbd6-5e3b-4eba-9697-bcd28d5257f6.png)
@@ -39,7 +38,10 @@ Beijing University of Posts and Telecommunications
 ## Download
 * Download from [here](https://drive.google.com/drive/folders/1lpSqNXtm-ianfI6TIvrJZGp96iCXsBR-), it contains images with the largest side scaled to 800, and labels categorized by different themes.
 
-# TANet
+------------------------------------------------------------------------------------------------------------
+
+# TANet &nbsp;<a href=""><img width="48" src="docs/release_icon.png"></a>
+
 ## Introduction
 We propose a baseline model, called the Theme and Aesthetics Network (TANet), which can maintain a constant perception of aesthetics to effectively deal with the problem of attention dispersion. Moreover, TANet can adaptively learn the rules for predicting aesthetics according to a recognized theme. By comparing 17 methods with TANet on three representative datasets: AVA, FLICKR-AES and the proposed TAD66K, TANet achieves state-of-the-art performance on all three datasets.
 ![TANet](https://user-images.githubusercontent.com/15050507/164627140-fed5f9b9-43fa-4cb3-a23f-b60935d3aa71.png)
