@@ -25,8 +25,8 @@ https://user-images.githubusercontent.com/15050507/164580823-4ea8ff91-825b-43dc-
 https://user-images.githubusercontent.com/15050507/164580840-b7f5624f-486d-46e6-9dd4-efaa92dde09c.mp4
 
 ## Environment Installation
-pandas==0.22.0
-nni==1.8
+*pandas==0.22.0
+*nni==1.8
 requests==2.18.4
 torchvision==0.8.2+cu101
 numpy==1.13.3
