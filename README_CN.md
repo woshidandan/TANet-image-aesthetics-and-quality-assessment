@@ -71,6 +71,11 @@ Beijing University of Posts and Telecommunications
 * 如果你不想用这个工具训练或测试，只需要将代码中类似于param_group['lr']这样的超参数的中括号都改为param_group.lr就可以了。
 * PS：FLICKR-AES这个数据集上train的权重可能不会公开，因为目前和一个公司合作，有一些保密的需求。
 
+## 其它
+* 事实上，以上述数据集为起点，后续还有很多工作可以尝试，即使是我们自己发布的TANet，性能也远未达到上限，因为TAD66K每个主题都对应了不同的评分规则，任务难度更大，这点可以在SRCC这种的指标上看出，目前只有0.513，有兴趣的同学，可以继续加油，把指标刷上去。
+* 我们实验室的主页：[视觉机器人与智能技术实验室](http://www.mrobotit.cn/Default.aspx)。
+* 我的个人主页：[博客](https://xiaohegithub.cn/)，[知乎](https://www.zhihu.com/people/wo-shi-dan-dan-87)。
+
 ## 快来尝试一下吧!
 https://user-images.githubusercontent.com/15050507/164580816-f98d1dd9-50a0-47b7-b992-2f0374e8a418.mp4
 
@@ -78,7 +83,4 @@ https://user-images.githubusercontent.com/15050507/164580823-4ea8ff91-825b-43dc-
 
 https://user-images.githubusercontent.com/15050507/164580840-b7f5624f-486d-46e6-9dd4-efaa92dde09c.mp4
 
-## 其它
-* 事实上，以上述数据集为起点，后续还有很多工作可以尝试，即使是我们自己发布的TANet，性能也远未达到上限，因为TAD66K每个主题都对应了不同的评分规则，任务难度更大，这点可以在SRCC这种的指标上看出，目前只有0.513，有兴趣的同学，可以继续加油，把指标刷上去。
-* 我们实验室的主页：[视觉机器人与智能技术实验室](http://www.mrobotit.cn/Default.aspx)。
-* 我的个人主页：[博客](https://xiaohegithub.cn/)，[知乎](https://www.zhihu.com/people/wo-shi-dan-dan-87)。
+
