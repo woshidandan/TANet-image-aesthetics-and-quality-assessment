@@ -18,11 +18,10 @@ Beijing University of Posts and Telecommunications
 </h4>
 </div>
 
-https://user-images.githubusercontent.com/15050507/164580816-f98d1dd9-50a0-47b7-b992-2f0374e8a418.mp4
+![TANet](https://user-images.githubusercontent.com/15050507/164586756-b50025b9-ccb9-4963-b3b4-e6495113a215.png)
+![Performance](https://user-images.githubusercontent.com/15050507/164586757-588c07c8-69e5-4802-bf74-56ca2b803f44.png)
+![TAD66K](https://user-images.githubusercontent.com/15050507/164586791-7fc9dd4d-5809-4803-923b-a45e31a0688b.png)
 
-https://user-images.githubusercontent.com/15050507/164580823-4ea8ff91-825b-43dc-a421-f75455e549ae.mp4
-
-https://user-images.githubusercontent.com/15050507/164580840-b7f5624f-486d-46e6-9dd4-efaa92dde09c.mp4
 
 ## Environment Installation
 * pandas==0.22.0
@@ -44,3 +43,12 @@ https://user-images.githubusercontent.com/15050507/164580840-b7f5624f-486d-46e6-
 
 # TAD66K
 * Download from [here](https://drive.google.com/drive/folders/1lpSqNXtm-ianfI6TIvrJZGp96iCXsBR-).
+
+
+
+
+https://user-images.githubusercontent.com/15050507/164580816-f98d1dd9-50a0-47b7-b992-2f0374e8a418.mp4
+
+https://user-images.githubusercontent.com/15050507/164580823-4ea8ff91-825b-43dc-a421-f75455e549ae.mp4
+
+https://user-images.githubusercontent.com/15050507/164580840-b7f5624f-486d-46e6-9dd4-efaa92dde09c.mp4
