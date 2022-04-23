@@ -11,7 +11,7 @@ Rethinking Image Aesthetics Assessment: Models, Datasets and Benchmarks
 </h1>
 <h4>
 <b>
-Shuai He, Yongchang Zhang, Dongxiang Jiang, Rui Xie, Anlong Ming
+Shuai He, Yongchang Zhang, Rui Xie, Dongxiang Jiang, Anlong Ming
     
 Beijing University of Posts and Telecommunications
 </b>
