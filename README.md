@@ -65,6 +65,7 @@ We propose a baseline model, called the Theme and Aesthetics Network (TANet), wh
 * Train or test, please run: nnictl create --config config.yml -p 8999
 * The Web UI urls are: http://127.0.0.1:8999 or http://172.17.0.3:8999
 * Note: nni is not necessary, if you don't want to use this tool, just make simple modifications to our code, such as changing param_group['lr'] to param_group.lr, etc.
+* PS: The work of train on the FLICKR-AES dataset may not be made public, because we are currently cooperating with a company, and the relevant model has been embedded into the system, and there are some confidentiality requirements.
 
 ## Try!
 https://user-images.githubusercontent.com/15050507/164580816-f98d1dd9-50a0-47b7-b992-2f0374e8a418.mp4
