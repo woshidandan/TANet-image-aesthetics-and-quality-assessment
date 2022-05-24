@@ -35,7 +35,7 @@ Beijing University of Posts and Telecommunications
     
 </div>
 
-## Download
+## Download Dataset
 * Download from [here](https://drive.google.com/drive/folders/1lpSqNXtm-ianfI6TIvrJZGp96iCXsBR-), it contains images with the largest side scaled to 800, and labels categorized by different themes.
 
 ------------------------------------------------------------------------------------------------------------
