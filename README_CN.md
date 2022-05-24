@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
-这是我们组在IJCAI 2022关于图像美学评估最新的一篇工作，代码会在IJCAI会议结束后开源: 
+这是我们组在IJCAI 2022关于图像美学评估最新的一篇工作: 
 
 <div align="center">
 <h1>
@@ -69,7 +69,7 @@ Beijing University of Posts and Telecommunications
 * 炼丹是一个痛苦的过程，特别是像TANet这种的多分支网络，每个分支若设置相同的学习率，训练起来无法达到最优的性能，若单独手工设置各分支学习率，耗时又耗力，所以这里面我们用了微软的自动调参工具[nni](https://github.com/microsoft/nni)，网上有很多nni相关的[使用教程](https://blog.csdn.net/weixin_43653494/article/details/101039198)，强烈推荐同学们使用这个工具，不仅能自动调参，还能替代TensorBoard对训练过程的各项指标可视化。
 * 如果你安装好了nni之后，训练时请配置好config.yml和超参数文件search_space.json，然后运行nnictl create --config config.yml -p 8999，训练的可视化后台可以在本地的http://127.0.0.1:8999 或 http://172.17.0.3:8999 看到。
 * 如果你不想用这个工具训练或测试，只需要将代码中类似于param_group['lr']这样的超参数的中括号都改为param_group.lr就可以了。
-* PS：FLICKR-AES这个数据集上train的权重可能不会公开，因为目前和一个公司合作，有一些保密的需求。
+* PS：FLICKR-AES这个数据集上train的工作可能不会公开，因为目前和一个公司合作，相关的模型已经嵌入进系统中，有一些保密的需求。
 
 ## 其它
 * 事实上，以TAD66K为起点，后续还有很多工作可以尝试，即使是我们自己发布的TANet，性能也远未达到上限，因为TAD66K每个主题都对应了不同的评分规则，任务难度更大，这点可以在SRCC这种的指标上看出，目前只有0.513，有兴趣的同学，可以继续加油，把指标刷上去。
