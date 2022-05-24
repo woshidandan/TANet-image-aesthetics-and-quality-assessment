@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Framework](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
-[[国内的小伙伴请看更详细的中文说明]](https://github.com/woshidandan/TANet/blob/main/README_CN.md)This repo contains the official implementation and the new IAA dataset TAD66K of the **IJCAI 2022** paper,the code will be available after the IJCAI meeting.
+[[国内的小伙伴请看更详细的中文说明]](https://github.com/woshidandan/TANet/blob/main/README_CN.md)This repo contains the official implementation and the new IAA dataset TAD66K of the **IJCAI 2022** paper.
 
 <div align="center">
 <h1>
