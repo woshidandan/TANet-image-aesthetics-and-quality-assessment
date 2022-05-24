@@ -1,0 +1,11 @@
+{
+    "batch_size": {"_type":"choice", "_value": [40]},
+    "init_lr_res365_last":{"_type":"choice","_value":[0.000001]},
+    "init_lr_mobileNet":{"_type":"choice","_value":[0.000001, 0.0000001]},
+    "init_lr_head":{"_type":"choice","_value":[0.000001, 0.0000001]},
+    "init_lr_head_rgb":{"_type":"choice","_value":[0.0000001, 0.0000001]},
+    "init_lr_hypernet":{"_type":"choice","_value":[0.000001, 0.0000003]},
+    "init_lr_tygertnet":{"_type":"choice","_value":[0.000001, 0.0000003]},
+    "init_lr":{"_type":"choice","_value":[0.000001, 0.0000003]}
+}
+
