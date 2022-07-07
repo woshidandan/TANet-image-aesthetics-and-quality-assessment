@@ -38,7 +38,7 @@ Beijing University of Posts and Telecommunications
 </div>
 
 ## Download
-* 你可以从这里下载到数据集和标注分数 [here](https://drive.google.com/drive/folders/1lpSqNXtm-ianfI6TIvrJZGp96iCXsBR-)，如果失效了，记得cue我，每张图像的最大边按等比放缩至800，标注文件都按主题类别分开整理好了。
+* 你可以从这里下载到数据集和标注分数 [here](https://drive.google.com/drive/folders/1b2D9LeeG5XZzhEa8ldnIZjGh0IHadHhU?usp=sharing)，如果失效了，记得cue我，每张图像的最大边按等比放缩至800，标注文件都按主题类别分开整理好了。
 
 ------------------------------------------------------------------------------------------------------------
 
