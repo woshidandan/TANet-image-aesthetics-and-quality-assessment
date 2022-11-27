@@ -77,6 +77,16 @@ Beijing University of Posts and Telecommunications
 * 我们实验室的主页：[视觉机器人与智能技术实验室](http://www.mrobotit.cn/Default.aspx)。
 * 我的个人主页：[博客](https://xiaohegithub.cn/)，[知乎](https://www.zhihu.com/people/wo-shi-dan-dan-87)。
 
+## 如果你觉得这篇工作对你有帮助，请引用，不要白嫖-_-:
+```
+@article{herethinking,
+  title={Rethinking Image Aesthetics Assessment: Models, Datasets and Benchmarks},
+  author={He, Shuai and Zhang, Yongchang and Xie, Rui and Jiang, Dongxiang and Ming, Anlong},
+  journal={IJCAI},
+  year={2022},
+}
+```
+
 ## 快来尝试一下吧!
 https://user-images.githubusercontent.com/15050507/164580816-f98d1dd9-50a0-47b7-b992-2f0374e8a418.mp4
 
