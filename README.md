@@ -68,7 +68,7 @@ We propose a baseline model, called the Theme and Aesthetics Network (TANet), wh
 * Note: nni is not necessary, if you don't want to use this tool, just make simple modifications to our code, such as changing param_group['lr'] to param_group.lr, etc.
 * PS: The work of train on the FLICKR-AES dataset may not be made public, because we are currently cooperating with a company, and the relevant model has been embedded into the system, and there are some confidentiality requirements.
 
-##If you find our work is useful, pleaes cite our paper:
+## If you find our work is useful, pleaes cite our paper:
 ```
 @article{herethinking,
   title={Rethinking Image Aesthetics Assessment: Models, Datasets and Benchmarks},
