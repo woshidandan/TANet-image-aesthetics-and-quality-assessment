@@ -18,7 +18,7 @@ Beijing University of Posts and Telecommunications
 </h4>
 </div>
 
-因我个人热衷于开源，希望更多的小伙伴关注到这篇工作，故额外写了一篇中文的介绍，不要忘记给我们一个小星星哦，Star一下吧！
+因我个人热衷于开源，希望更多的小伙伴关注到这篇工作，故额外写了一篇中文的介绍，不要忘记给我们一个小星星哦，Star一下吧！我们组在ICCV2023的最新工作：[链接](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment)
 <!-- ![TANet and TAD66K dataset](https://user-images.githubusercontent.com/15050507/164587655-4af0b519-7213-4f29-b378-5dfc51dfab83.png)
 ![Performance](https://user-images.githubusercontent.com/15050507/164587663-043a76d8-5d1b-417e-856d-2320fbe26836.png) -->
 ------------------------------------------------------------------------------------------------------------
