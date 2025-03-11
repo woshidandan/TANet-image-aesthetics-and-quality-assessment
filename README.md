@@ -6,7 +6,7 @@
 <div align="center">
 <h1>
 <b>
-Rethinking Image Aesthetics Assessment: Models, Datasets and Benchmarks
+Rethinking Image Aesthetics Assessment: Models, Datasets and Benchmarks 
 </b>
 </h1>
 <h4>
