@@ -25,7 +25,7 @@ MOBILE_NET_V2_UTR = 'https://s3-us-west-1.amazonaws.com/models-nima/mobilenetv2.
 
 def adjust_learning_rate(params, optimizer, epoch):
     """Sets the learning rate to the initial LR
-       decayed by 10 every 30 epochs"""
+       decayed by 10 every 10 epochs"""
     lr = params.init_lr * (0.1 ** (epoch // 10))
     for param_group in optimizer.param_groups:
         param_group['lr'] = lr
